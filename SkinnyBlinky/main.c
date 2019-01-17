@@ -4,11 +4,11 @@
 // SkinnyBlinky source code
 
 #define RCC_BASE        *((volatile unsigned long*)0x40021000)
-#define AHB2_ENR        RCC_BASE + 0x4C
+#define AHB2_ENR        *((volatile unsigned long*)RCC_BASE + 0x4C)
 
 #define GPIOB_BASE      *((volatile unsigned long*)0x48000400)
-#define GPIOB_MODER     GPIOB_BASE + 0x00
-#define GPIOB_ODR       GPIOB_BASE + 0x14
+#define GPIOB_MODER     *((volatile unsigned long*)GPIOB_BASE + 0x00)
+#define GPIOB_ODR       *((volatile unsigned long*)GPIOB_BASE + 0x14)
 
 #define PB3_OUTPUT      (1 << 6) // 01000000
 #define PB3_CLEAR       ~(1 << 7) // 10000000 & 0111111 = 00000000
