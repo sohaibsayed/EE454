@@ -1,0 +1,629 @@
+Offset
+Register
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+0x00
+GPIOA_MODER
+MODE15[1:0]
+MODE14[1:0]
+MODE13[1:0]
+MODE12[1:0]
+MODE11[1:0]
+MODE10[1:0]
+MODE9[1:0]
+MODE8[1:0]
+MODE7[1:0]
+MODE6[1:0]
+MODE5[1:0]
+MODE4[1:0]
+MODE3[1:0]
+MODE2[1:0]
+MODE1[1:0]
+MODE0[1:0]
+Reset value
+10101011111111111111
+11111
+1111111
+0x00
+GPIOB_MODER
+MODE15[1:0]
+MODE14[1:0]
+MODE13[1:0]
+MODE12[1:0]
+MODE11[1:0]
+MODE10[1:0]
+MODE9[1:0]
+MODE8[1:0]
+MODE7[1:0]
+MODE6[1:0]
+MODE5[1:0]
+MODE4[1:0]
+MODE3[1:0]
+MODE2[1:0]
+MODE1[1:0]
+MODE0[1:0]
+Reset value
+11111111111111111111
+11101
+0111111
+0x00
+GPIOx_MODER
+(where x =
+C..E,H
+)
+MODE15[1:0]
+MODE14[1:0]
+MODE13[1:0]
+MODE12[1:0]
+MODE11[1:0]
+MODE10[1:0]
+MODE9[1:0]
+MODE8[1:0]
+MODE7[1:0]
+MODE6[1:0]
+MODE5[1:0]
+MODE4[1:0]
+MODE3[1:0]
+MODE2[1:0]
+MODE1[1:0]
+MODE0[1:0]
+Reset value
+11111111111111111111
+11111
+1111111
+0x04
+GPIOx_OTYPER
+(where x =
+A..E,H
+)
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+OT15
+OT14
+OT13
+OT12
+OT11
+OT10
+OT9
+OT8
+OT7
+OT6
+OT5
+OT4
+OT3
+OT2
+OT1
+OT0
+Reset value
+000000000
+0000000
+0x08
+GPIOA_OSPEEDR
+OSPEED15[1:0]
+OSPEED14[1:0]
+OSPEED13[1:0]
+OSPEED12[1:0]
+OSPEED11[1:0]
+OSPEED10[1:0]
+OSPEED9[1:0]
+OSPEED8[1:0]
+OSPEED7[1:0]
+OSPEED6[1:0]
+OSPEED5[1:0]
+OSPEED4[1:0]
+OSPEED3[1:0]
+OSPEED2[1:0]
+OSPEED1[1:0]
+OSPEED0[1:0]
+Reset value
+00001100000000000000
+00000
+0000000
+0x08
+GPIOx_OSPEEDR
+(where x =
+ B..E,H
+)
+OSPEED15[1:0]
+OSPEED14[1:0]
+OSPEED13[1:0]
+OSPEED12[1:0]
+OSPEED11[1:0]
+OSPEED10[1:0]
+OSPEED9[1:0]
+OSPEED8[1:0]
+OSPEED7[1:0]
+OSPEED6[1:0]
+OSPEED5[1:0]
+OSPEED4[1:0]
+OSPEED3[1:0]
+OSPEED2[1:0]
+OSPEED1[1:0]
+OSPEED0[1:0]
+Reset value
+00000000000000000000
+00000
+0000000
+0x0C
+GPIOA_PUPDR
+PUPD15[1:0]
+PUPD14[1:0]
+PUPD13[1:0]
+PUPD12[1:0]
+PUPD11[1:0]
+PUPD10[1:0]
+PUPD9[1:0]
+PUPD8[1:0]
+PUPD7[1:0]
+PUPD6[1:0]
+PUPD5[1:0]
+PUPD4[1:0]
+PUPD3[1:0]
+PUPD2[1:0]
+PUPD1[1:0]
+PUPD0[1:0]
+Reset value
+01100100000000000000
+00000
+0000000
+0x0C
+GPIOB_PUPDR
+PUPD15[1:0]
+PUPD14[1:0]
+PUPD13[1:0]
+PUPD12[1:0]
+PUPD11[1:0]
+PUPD10[1:0]
+PUPD9[1:0]
+PUPD8[1:0]
+PUPD7[1:0]
+PUPD6[1:0]
+PUPD5[1:0]
+PUPD4[1:0]
+PUPD3[1:0]
+PUPD2[1:0]
+PUPD1[1:0]
+PUPD0[1:0]
+Reset value
+00000000000000000000
+00010
+0000000
+0x0C
+GPIOx_PUPDR
+(where x = C..E and
+H)
+PUPD15[1:0]
+PUPD14[1:0]
+PUPD13[1:0]
+PUPD12[1:0]
+PUPD11[1:0]
+PUPD10[1:0]
+PUPD9[1:0]
+PUPD8[1:0]
+PUPD7[1:0]
+PUPD6[1:0]
+PUPD5[1:0]
+PUPD4[1:0]
+PUPD3[1:0]
+PUPD2[1:0]
+PUPD1[1:0]
+PUPD0[1:0]
+Reset value
+00000000000000000000
+00000
+0000000
+0x10
+GPIOx_IDR
+(where x =
+A..E,H
+)
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+ID15
+ID14
+ID13
+ID12
+ID11
+ID10
+ID9
+ID8
+ID7
+ID6
+ID5
+ID4
+ID3
+ID2
+ID1
+ID0
+Reset value
+xxxxxxxxxxxxxxxx
+General-purpose I/Os (GPIO)
+RM0394
+270/1472
+DocID027295 Rev 3
+Refer to
+Section 2.2.2 on page 64
+ for the register boundary addresses.
+0x14
+GPIOx_ODR
+(where x =
+A..E,H
+)
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+OD15
+OD14
+OD13
+OD12
+OD11
+OD10
+OD9
+OD8
+OD7
+OD6
+OD5
+OD4
+OD3
+OD2
+OD1
+OD0
+Reset value
+000000000
+0000000
+0x18
+GPIOx_BSRR
+(where x =
+A..E,H
+)
+BR15
+BR14
+BR13
+BR12
+BR11
+BR10
+BR9
+BR8
+BR7
+BR6
+BR5
+BR4
+BR3
+BR2
+BR1
+BR0
+BS15
+BS14
+BS13
+BS12
+BS11
+BS10
+BS9
+BS8
+BS7
+BS6
+BS5
+BS4
+BS3
+BS2
+BS1
+BS0
+Reset value
+00000000000000000000
+00000
+0000000
+0x1C
+GPIOx_LCKR
+(where x =
+A..E,H
+)
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+LCKK
+LCK15
+LCK14
+LCK13
+LCK12
+LCK11
+LCK10
+LCK9
+LCK8
+LCK7
+LCK6
+LCK5
+LCK4
+LCK3
+LCK2
+LCK1
+LCK0
+Reset value
+0000000000
+0000000
+0x20
+GPIOx_AFRL
+(where x =
+A..E,H
+)
+AFSEL7[3:0]   AFSEL6[3:0]   AFSEL5[3:0]   AFSEL4[3:0]   AFSEL3[3:0]   AFSEL2[3:0]   AFSEL1[3:0]   AFSEL0[3:0]
+Reset value
+00000000000000000000
+00000
+0000000
+0x24
+GPIOx_AFRH
+(where x =
+A..E,H
+)
+AFSEL15[3:0] AFSEL14[3:0] AFSEL13[3:0] AFSEL12[3:0] AFSEL11[3:0] AFSEL10[3:0]  AFSEL9[3:0]   AFSEL8[3:0]
+Reset value
+00000000000000000000
+00000
+0000000
+0x28
+GPIOx_BRR
+(where x =
+A..E,H
+)
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+Res.
+BR15
+BR14
+BR13
+BR12
+BR11
+BR10
+BR9
+BR8
+BR7
+BR6
+BR5
+BR4
+BR3
+BR2
+BR1
+BR0
+Reset value
+000000000
+0000000
+Table 36. GPIO register map and reset values (continued)
+Offset
+Register
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+DocID027295 Rev 3
+271/1472
+RM0394
+System configurat
+ion controller (SYSCFG)
+282
+9
+System configuration controller (SYSCFG)
+9.1
+SYSCFG main features
+The STM32L43xxx/44xxx/45xxx/46xxx devices feat
+ure a set of configuration registers. The
+main purposes of the system confi
+guration controller are the following:
+•
+Remapping memory areas
+•
+Managing the external interrupt line connection to the GPIOs
+•
+Managing robustness feature
+•
+Setting SRAM2 write protection and software erase
+•
+Configuring FPU interrupts
+•
+Enabling the firewall
+•
+Enabling /disabling I
+2
+C Fast-mode Plus driving cap
+ability on some I/Os and voltage
+booster for I/Os analog switches.
+9.2          SYSCFG          registers
+9.2.1
+SYSCFG memory remap
+register (SYSCFG_MEMRMP)
+This register is used for specific
+ configurations on memory remap.
+Address offset: 0x00
+Reset value: 0x0000 000X (X is the memory mode selected by the BOOT0 pin and BOOT1
+option bit)
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+1514131211109876543210
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+Res
+MEM_MODE
+rw
+rw
+rw
+Bits 31:3  Reserved, must be kept at reset value.
+Bits 2:0
+MEM_MODE:
+ Memory mapping selection
+These bits control the memory internal m
+apping at address 0x0000 0000. These bits are
+used to select the physical remap by software
+and so, bypass the BOOT mode setting. After
+reset these bits take the value selected by BOOT0 (pin or option bit depending on
+nSWBOOT0 option bit) and BOOT1 option bit.
+000: Main Flash memory mapped at 0x00000000.
+001: System Flash memory mapped at 0x00000000.
+010: Reserved
+011: SRAM1 mapped at 0x00000000.
+100: Reserved
+101: Reserved
+110: QUADSPI memory mapped at 0x00000000.
+111: Reserved
